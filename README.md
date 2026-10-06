@@ -55,86 +55,86 @@ Below is a curated selection of commercial and fully managed RAG platforms, vect
 
 ## 🔓 Open-Source GitHub Projects
 
-The open-source RAG ecosystem offers complete self-hosted platforms, modular frameworks, vector search engines, and document parsers. Below is a comprehensive list **sorted by GitHub Star Count (Descending)**, with social badges linking directly to each repository's stargazers page:
+The open-source RAG ecosystem offers complete self-hosted platforms, modular frameworks, vector search engines, and document parsers. Below is a comprehensive list **sorted by GitHub Stars_Count (Descending)**, with social badges linking directly to each repository's stargazers page:
 
 ### 🌟 Top Open-Source RAG Ecosystem (Sorted by Stars)
 
-- **[Dify](https://github.com/langgenius/dify)** [![GitHub stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers)  
+- **[Dify](https://github.com/langgenius/dify)** [![GitHub_Stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers)  
   **The leading open-source LLM app development platform** (Apache-2.0). Features a visual workflow builder for RAG pipelines, AI agents, and prompt orchestration with built-in document ingestion and hybrid retrieval.
 
-- **[LangFlow](https://github.com/langflow-ai/langflow)** [![GitHub stars](https://img.shields.io/github/stars/langflow-ai/langflow?style=social&color=white)](https://github.com/langflow-ai/langflow/stargazers)  
+- **[LangFlow](https://github.com/langflow-ai/langflow)** [![GitHub_Stars](https://img.shields.io/github/stars/langflow-ai/langflow?style=social&color=white)](https://github.com/langflow-ai/langflow/stargazers)  
   **Visual framework for building multi-agent RAG applications** (MIT). Drag-and-drop canvas for composing vector search, document chunking, and custom retriever components.
 
-- **[Open WebUI](https://github.com/open-webui/open-webui)** [![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers)  
+- **[Open WebUI](https://github.com/open-webui/open-webui)** [![GitHub_Stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers)  
   **User-friendly self-hosted Web UI for LLMs and RAG** (MIT). Integrated document upload, hybrid vector search, Ollama support, and granular multi-user permissions.
 
-- **[LangChain](https://github.com/langchain-ai/langchain)** [![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers)  
+- **[LangChain](https://github.com/langchain-ai/langchain)** [![GitHub_Stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers)  
   **The standard framework for LLM application development** (MIT). Offers comprehensive RAG chains, document loaders, vector store abstractions, and agentic retrieval.
 
-- **[RAGFlow](https://github.com/infiniflow/ragflow)** [![GitHub stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers)  
+- **[RAGFlow](https://github.com/infiniflow/ragflow)** [![GitHub_Stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers)  
   **Open-source RAG engine based on deep document understanding** (Apache-2.0). Features template-based PDF parsing, visual grounding citations, and hallucination reduction.
 
-- **[GPT4All](https://github.com/nomic-ai/gpt4all)** [![GitHub stars](https://img.shields.io/github/stars/nomic-ai/gpt4all?style=social&color=white)](https://github.com/nomic-ai/gpt4all/stargazers)  
+- **[GPT4All](https://github.com/nomic-ai/gpt4all)** [![GitHub_Stars](https://img.shields.io/github/stars/nomic-ai/gpt4all?style=social&color=white)](https://github.com/nomic-ai/gpt4all/stargazers)  
   **Privacy-aware desktop client with LocalDocs RAG capability** (MIT). Chat with local files and PDFs completely offline on consumer CPUs/GPUs.
 
-- **[Docling](https://github.com/docling-project/docling)** [![GitHub stars](https://img.shields.io/github/stars/docling-project/docling?style=social&color=white)](https://github.com/docling-project/docling/stargazers)  
+- **[Docling](https://github.com/docling-project/docling)** [![GitHub_Stars](https://img.shields.io/github/stars/docling-project/docling?style=social&color=white)](https://github.com/docling-project/docling/stargazers)  
   **IBM Research document processing framework for RAG** (MIT). Converts complex PDFs, scans, and tables into cleanly structured Markdown and JSON.
 
-- **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)** [![GitHub stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social&color=white)](https://github.com/Mintplex-Labs/anything-llm/stargazers)  
+- **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)** [![GitHub_Stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social&color=white)](https://github.com/Mintplex-Labs/anything-llm/stargazers)  
   **All-in-one desktop and enterprise RAG application** (MIT). Chat with documents, web pages, and databases with workspace isolation and zero-setup vector databases.
 
-- **[Flowise](https://github.com/FlowiseAI/Flowise)** [![GitHub stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social&color=white)](https://github.com/FlowiseAI/Flowise/stargazers)  
+- **[Flowise](https://github.com/FlowiseAI/Flowise)** [![GitHub_Stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social&color=white)](https://github.com/FlowiseAI/Flowise/stargazers)  
   **Open-source UI visual tool to build LangChain RAG flows** (Apache-2.0). Build custom document QA pipelines via node-based visual drag-and-drop.
 
-- **[LlamaIndex](https://github.com/run-llama/llama_index)** [![GitHub stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)  
+- **[LlamaIndex](https://github.com/run-llama/llama_index)** [![GitHub_Stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)  
   **Data framework for LLM & RAG applications** (MIT). The reference code-first framework for data connectors, advanced chunking, indexing, and reranking retrieval.
 
-- **[Milvus](https://github.com/milvus-io/milvus)** [![GitHub stars](https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white)](https://github.com/milvus-io/milvus/stargazers)  
+- **[Milvus](https://github.com/milvus-io/milvus)** [![GitHub_Stars](https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white)](https://github.com/milvus-io/milvus/stargazers)  
   **Cloud-native vector database built for scale** (Apache-2.0). Handles multi-billion vector datasets with high throughput and horizontal scalability.
 
-- **[Marker](https://github.com/VikParuchuri/marker)** [![GitHub stars](https://img.shields.io/github/stars/VikParuchuri/marker?style=social&color=white)](https://github.com/VikParuchuri/marker/stargazers)  
+- **[Marker](https://github.com/VikParuchuri/marker)** [![GitHub_Stars](https://img.shields.io/github/stars/VikParuchuri/marker?style=social&color=white)](https://github.com/VikParuchuri/marker/stargazers)  
   **Fast, accurate PDF to Markdown converter** (GPL-3.0). Extracts formulas, tables, and images for clean RAG ingestion.
 
-- **[Quivr](https://github.com/QuivrHQ/quivr)** [![GitHub stars](https://img.shields.io/github/stars/QuivrHQ/quivr?style=social&color=white)](https://github.com/QuivrHQ/quivr/stargazers)  
+- **[Quivr](https://github.com/QuivrHQ/quivr)** [![GitHub_Stars](https://img.shields.io/github/stars/QuivrHQ/quivr?style=social&color=white)](https://github.com/QuivrHQ/quivr/stargazers)  
   **Open-source personal RAG second brain** (Apache-2.0). Dump files, notes, and links to query with local or cloud LLMs.
 
-- **[Khoj](https://github.com/khoj-ai/khoj)** [![GitHub stars](https://img.shields.io/github/stars/khoj-ai/khoj?style=social&color=white)](https://github.com/khoj-ai/khoj/stargazers)  
+- **[Khoj](https://github.com/khoj-ai/khoj)** [![GitHub_Stars](https://img.shields.io/github/stars/khoj-ai/khoj?style=social&color=white)](https://github.com/khoj-ai/khoj/stargazers)  
   **Open-source AI desktop search assistant** (AGPL-3.0). RAG search across personal notes, PDF documents, and web search.
 
-- **[Microsoft GraphRAG](https://github.com/microsoft/graphrag)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/graphrag?style=social&color=white)](https://github.com/microsoft/graphrag/stargazers)  
+- **[Microsoft GraphRAG](https://github.com/microsoft/graphrag)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/graphrag?style=social&color=white)](https://github.com/microsoft/graphrag/stargazers)  
   **Knowledge graph-driven RAG system by Microsoft** (MIT). Extracts entity-relation knowledge graphs from complex text corpora for global analytical queries.
 
-- **[Qdrant](https://github.com/qdrant/qdrant)** [![GitHub stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers)  
+- **[Qdrant](https://github.com/qdrant/qdrant)** [![GitHub_Stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers)  
   **High-performance Rust vector database** (Apache-2.0). Vector search engine with rich payload filtering and fast distance metrics.
 
-- **[Onyx (formerly Danswer)](https://github.com/onyx-dot-app/onyx)** [![GitHub stars](https://img.shields.io/github/stars/onyx-dot-app/onyx?style=social&color=white)](https://github.com/onyx-dot-app/onyx/stargazers)  
+- **[Onyx (formerly Danswer)](https://github.com/onyx-dot-app/onyx)** [![GitHub_Stars](https://img.shields.io/github/stars/onyx-dot-app/onyx?style=social&color=white)](https://github.com/onyx-dot-app/onyx/stargazers)  
   **Open-source enterprise search and conversational RAG platform** (MIT). Direct connectors to Slack, Google Drive, Notion, GitHub, and Confluence.
 
-- **[Chroma](https://github.com/chroma-core/chroma)** [![GitHub stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white)](https://github.com/chroma-core/chroma/stargazers)  
+- **[Chroma](https://github.com/chroma-core/chroma)** [![GitHub_Stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white)](https://github.com/chroma-core/chroma/stargazers)  
   **AI-native embedding database** (Apache-2.0). Simple developer API focused on fast prototyping and local embedding storage.
 
-- **[Haystack](https://github.com/deepset-ai/haystack)** [![GitHub stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers)  
+- **[Haystack](https://github.com/deepset-ai/haystack)** [![GitHub_Stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers)  
   **Production-ready Python RAG framework by deepset** (Apache-2.0). Modular pipelines for semantic search, question answering, and hybrid reranking.
 
-- **[Pgvector](https://github.com/pgvector/pgvector)** [![GitHub stars](https://img.shields.io/github/stars/pgvector/pgvector?style=social&color=white)](https://github.com/pgvector/pgvector/stargazers)  
+- **[Pgvector](https://github.com/pgvector/pgvector)** [![GitHub_Stars](https://img.shields.io/github/stars/pgvector/pgvector?style=social&color=white)](https://github.com/pgvector/pgvector/stargazers)  
   **Open-source vector similarity search extension for PostgreSQL** (PostgreSQL License). Enables vector embeddings directly inside existing Postgres tables.
 
-- **[Weaviate](https://github.com/weaviate/weaviate)** [![GitHub stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers)  
+- **[Weaviate](https://github.com/weaviate/weaviate)** [![GitHub_Stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers)  
   **Open-source vector database with hybrid search** (BSD-3-Clause). Built-in ML vectorizers, GraphQL interface, and inverted index BM25 integration.
 
-- **[RAGAS](https://github.com/explodinggradients/ragas)** [![GitHub stars](https://img.shields.io/github/stars/explodinggradients/ragas?style=social&color=white)](https://github.com/explodinggradients/ragas/stargazers)  
+- **[RAGAS](https://github.com/explodinggradients/ragas)** [![GitHub_Stars](https://img.shields.io/github/stars/explodinggradients/ragas?style=social&color=white)](https://github.com/explodinggradients/ragas/stargazers)  
   **Evaluation framework for RAG pipelines** (Apache-2.0). Provides quantitative metrics for context relevance, faithfulness, and answer correctness.
 
-- **[Unstructured](https://github.com/Unstructured-IO/unstructured)** [![GitHub stars](https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social&color=white)](https://github.com/Unstructured-IO/unstructured/stargazers)  
+- **[Unstructured](https://github.com/Unstructured-IO/unstructured)** [![GitHub_Stars](https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social&color=white)](https://github.com/Unstructured-IO/unstructured/stargazers)  
   **Open-source document pre-processing library** (Apache-2.0). Ingests raw documents (PDF, DOCX, PPTX) into structured text elements.
 
-- **[PyMuPDF](https://github.com/pymupdf/PyMuPDF)** [![GitHub stars](https://img.shields.io/github/stars/pymupdf/PyMuPDF?style=social&color=white)](https://github.com/pymupdf/PyMuPDF/stargazers)  
+- **[PyMuPDF](https://github.com/pymupdf/PyMuPDF)** [![GitHub_Stars](https://img.shields.io/github/stars/pymupdf/PyMuPDF?style=social&color=white)](https://github.com/pymupdf/PyMuPDF/stargazers)  
   **High-performance C/Python library for PDF text extraction** (AGPL-3.0). Lightning-fast parsing of PDF text, images, and metadata for RAG.
 
-- **[Verba](https://github.com/weaviate/Verba)** [![GitHub stars](https://img.shields.io/github/stars/weaviate/Verba?style=social&color=white)](https://github.com/weaviate/Verba/stargazers)  
+- **[Verba](https://github.com/weaviate/Verba)** [![GitHub_Stars](https://img.shields.io/github/stars/weaviate/Verba?style=social&color=white)](https://github.com/weaviate/Verba/stargazers)  
   **Open-source RAG chatbot powered by Weaviate** (BSD-3-Clause). User interface for document indexing, semantic search, and customizable chunking strategies.
 
-- **[Apache Tika](https://github.com/apache/tika)** [![GitHub stars](https://img.shields.io/github/stars/apache/tika?style=social&color=white)](https://github.com/apache/tika/stargazers)  
+- **[Apache Tika](https://github.com/apache/tika)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/tika?style=social&color=white)](https://github.com/apache/tika/stargazers)  
   **Universal content detection and text extraction toolkit** (Apache-2.0). Detects and extracts text metadata from over 1,000 distinct file formats.
 
 ---
@@ -144,7 +144,7 @@ The open-source RAG ecosystem offers complete self-hosted platforms, modular fra
 Contributions from AI engineers and open-source contributors are welcome!
 1. **Fork** this repository.
 2. Add or update entries in `README.md` keeping descriptions factual, concise, and linked.
-3. Ensure open-source additions include star badges pointing to their repo stargazers URL.
+3. Ensure open-source additions include Stars_Badges pointing to their repo stargazers URL.
 4. Submit a **Pull Request** with a brief summary of additions.
 
 ---
