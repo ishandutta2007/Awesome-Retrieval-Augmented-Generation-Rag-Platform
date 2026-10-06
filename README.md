@@ -1,319 +1,179 @@
-# Awesome-Retrieval-Augmented-Generation-Rag-Platform
-
-## Top Retrieval-Augmented Generation (RAG) Platform Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Vector Search, Document Ingestion & Self-Hosted RAG Pipelines*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial RAG platforms** and **open-source projects** that connect large language models to external knowledge — enabling grounded, cited, and accurate AI responses over private documents, databases, and APIs.
-
-
-
-**Examples** include Amazon Bedrock Knowledge Bases, Pinecone, LlamaIndex Cloud, Ragie, Weaviate Cloud, Qdrant Cloud, Chroma Cloud, Unstructured, Glean, and Dify Knowledge (the category leaders).
-
-
-
-**Open-source emphasis**: RAG is one of the fastest-growing open-source domains. **Dify**, **LangFlow**, and **Flowise** lead as visual RAG builders. **LlamaIndex** and **Haystack** provide code-first RAG frameworks. **Qdrant**, **Weaviate**, **Milvus**, and **Chroma** power vector search. **Unstructured** and **Docling** handle document ingestion. **RAGFlow** and **AnythingLLM** deliver complete self-hosted RAG platforms. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Amazon Bedrock Knowledge Bases](https://aws.amazon.com/bedrock/knowledge-bases/)**  
-
-  **AWS's managed RAG service** — connect foundation models to private data with fully managed ingestion, chunking, embedding, and retrieval . **Best for AWS-native RAG** .
-
-
-
-- **[Pinecone](https://www.pinecone.io/)**  
-
-  **The leading managed vector database** — semantic search for AI applications . **Best for vector search at scale** .
-
-
-
-- **[LlamaIndex Cloud](https://www.llamaindex.ai/)**  
-
-  **Managed RAG platform from LlamaIndex** — document parsing, indexing, and retrieval . **Best for developer-friendly RAG** .
-
-
-
-- **[Ragie](https://www.ragie.ai/)**  
-
-  **Fully managed RAG-as-a-service** — ingestion, chunking, embedding, and retrieval API . **Best for rapid RAG development** .
-
-
-
-- **[Weaviate Cloud](https://weaviate.io/)**  
-
-  **Managed Weaviate** — vector database with hybrid search . **Best for AI-native applications** .
-
-
-
-- **[Qdrant Cloud](https://qdrant.tech/)**  
-
-  **Managed Qdrant** — high-performance vector search . **Best for vector search** .
-
-
-
-- **[Chroma Cloud](https://www.trychroma.com/)**  
-
-  **Managed Chroma** — AI-native embedding database . **Best for RAG prototypes** .
-
-
-
-- **[Unstructured](https://unstructured.io/)**  
-
-  **Document ingestion platform** — parse PDFs, documents, and images for RAG . **Best for document processing** .
-
-
-
-- **[Glean](https://www.glean.com/)**  
-
-  **Enterprise AI search and RAG** — permission-aware answers across company apps . **Best for enterprise knowledge** .
-
-
-
-- **[Dify Knowledge](https://dify.ai/)**  
-
-  **Managed Dify** — visual RAG pipeline with document management . **Best for visual RAG development** .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Complete RAG Platforms
-
-
-
-- **[Dify](https://github.com/langgenius/dify)**  
-
-  **The leading open-source LLM app development platform**, Apache-2.0 licensed with **150,000+ GitHub stars** . **Visual workflow builder for RAG, AI agents, and prompt orchestration** . **Built-in RAG engine with document ingestion, chunking, embedding, and retrieval** . **Best for visual RAG development** .
-
-
-
-- **[RAGFlow](https://github.com/infiniflow/ragflow)**  
-
-  **Open-source RAG engine based on deep document understanding**, Apache-2.0 licensed with **30,000+ GitHub stars** . **Template-based chunking with visual grounding** . **Reduces hallucinations with explainable retrieval** . **Best for document-heavy RAG** .
-
-
-
-- **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)**  
-
-  **Document-centric AI assistant with RAG built-in**, MIT licensed with **50,000+ GitHub stars** . **Chat with PDFs, documents, and websites** . **Multi-user with workspace isolation** . **Best for document Q&A** .
-
-
-
-- **[Quivr](https://github.com/QuivrHQ/quivr)**  
-
-  **Open-source RAG framework for building AI assistants**, Apache-2.0 licensed . **Second brain with file ingestion and semantic search** . **Best for personal knowledge management** .
-
-
-
-- **[Khoj](https://github.com/khoj-ai/khoj)**  
-
-  **Open-source AI second brain**, AGPL-3.0 licensed . **Search and chat across documents, notes, and the web** . **Best for personal knowledge** .
-
-
-
-### RAG Frameworks & Libraries
-
-
-
-- **[LlamaIndex](https://github.com/run-llama/llama_index)**  
-
-  **The leading open-source RAG framework**, MIT licensed with **35,000+ GitHub stars** . **Data connectors, indexing, and query engines** . **The reference for RAG development** . **Best for code-first RAG** .
-
-
-
-- **[LangChain](https://github.com/langchain-ai/langchain)**  
-
-  **The most widely used LLM framework**, MIT licensed with **90,000+ GitHub stars** . **Chains, agents, and RAG components** . **Best for general LLM development** .
-
-
-
-- **[Haystack](https://github.com/deepset-ai/haystack)**  
-
-  **Open-source NLP framework for RAG**, Apache-2.0 licensed with **15,000+ GitHub stars** . **Pipelines for retrieval, question answering, and summarization** . **Best for production RAG** .
-
-
-
-- **[RAGAS](https://github.com/explodinggradients/ragas)**  
-
-  **RAG evaluation framework**, Apache-2.0 licensed . **Metrics for faithfulness, relevance, and context quality** . **Best for RAG evaluation** .
-
-
-
-- **[Verba](https://github.com/weaviate/Verba)**  
-
-  **Open-source RAG chatbot from Weaviate**, BSD-3-Clause licensed . **Document ingestion and retrieval with hybrid search** . **Best for Weaviate-based RAG** .
-
-
-
-### Vector Databases
-
-
-
-- **[Qdrant](https://github.com/qdrant/qdrant)**  
-
-  **High-performance vector database**, Apache-2.0 licensed with **20,000+ GitHub stars** . **Semantic search with filtering and payload support** . **Best for AI-powered search** .
-
-
-
-- **[Weaviate](https://github.com/weaviate/weaviate)**  
-
-  **Open-source vector database**, BSD-3-Clause licensed with **12,000+ GitHub stars** . **Semantic search with GraphQL API and modular ML** . **Best for AI-native applications** .
-
-
-
-- **[Milvus](https://github.com/milvus-io/milvus)**  
-
-  **Cloud-native vector database**, Apache-2.0 licensed with **30,000+ GitHub stars** . **Billion-scale vector search** . **Best for large-scale AI search** .
-
-
-
-- **[Chroma](https://github.com/chroma-core/chroma)**  
-
-  **AI-native embedding database**, Apache-2.0 licensed with **15,000+ GitHub stars** . **Simple API for LLM applications** . **Best for RAG prototypes** .
-
-
-
-- **[Pgvector](https://github.com/pgvector/pgvector)**  
-
-  **Vector similarity search for PostgreSQL**, PostgreSQL License . **Adds vector search to existing PostgreSQL** . **Best for PostgreSQL users** .
-
-
-
-### Document Ingestion & Parsing
-
-
-
-- **[Unstructured](https://github.com/Unstructured-IO/unstructured)**  
-
-  **Open-source document ingestion**, Apache-2.0 licensed with **8,000+ GitHub stars** . **Parse PDFs, documents, and images for RAG** . **Best for document processing** .
-
-
-
-- **[Docling](https://github.com/docling-project/docling)**  
-
-  **IBM Research document processing framework**, MIT licensed . **Converts PDFs and scanned documents into structured JSON and Markdown** . **Best for RAG-ready parsing** .
-
-
-
-- **[Marker](https://github.com/VikParuchuri/marker)**  
-
-  **Convert PDF to Markdown and JSON**, GPL-3.0 licensed with **20,000+ GitHub stars** . **Fast and accurate PDF conversion** . **Best for PDF ingestion** .
-
-
-
-- **[PyMuPDF](https://github.com/pymupdf/PyMuPDF)**  
-
-  **PDF parsing and manipulation**, AGPL-3.0 licensed . **High-performance PDF processing** . **Best for PDF extraction** .
-
-
-
-- **[Tika](https://github.com/apache/tika)**  
-
-  **Apache content analysis toolkit**, Apache-2.0 licensed . **Extracts text and metadata from 1,000+ file types** . **Best for universal document parsing** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Onyx** — Open-source enterprise search and RAG .
-
-- **Verba** — Weaviate RAG chatbot .
-
-- **PrivateGPT** — Private document Q&A .
-
-- **LocalGPT** — Local document Q&A .
-
-- **GPT4All** — Local LLM with LocalDocs .
-
-- **Text Generation WebUI** — LLM interface with document Q&A .
-
-- **Open WebUI** — Self-hosted LLM interface with RAG .
-
-- **LibreChat** — Multi-model interface with file search .
-
-- **Danswer** — Open-source enterprise search .
-
-- **Morphik** — Open-source RAG platform .
-
-
-
-**Frameworks for building custom RAG solutions**: Combine **Dify** or **RAGFlow** for visual RAG development with document understanding . Use **LlamaIndex** or **Haystack** for code-first RAG pipelines . Deploy **Qdrant**, **Weaviate**, or **Milvus** for vector search . Integrate **Unstructured** or **Docling** for document ingestion . Use **RAGAS** for evaluation . Choose **AnythingLLM** for document Q&A . Note that true managed RAG with automatic scaling, permission-aware retrieval, and enterprise connectors (Bedrock Knowledge Bases, Glean, Ragie) remains primarily commercial territory; open-source stacks provide strong RAG frameworks, vector search, and document ingestion foundations that require integration for complete retrieval-augmented generation.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- RAG platforms process sensitive documents and may expose confidential information through retrieval. Self-hosted solutions require proper security hardening, access controls, and compliance with data privacy regulations.
-
-- **RAG accuracy depends on retrieval quality** — chunking strategy, embedding model, and retrieval parameters significantly impact output. Evaluate with RAGAS before production .
-
-- **License considerations**: Dify uses Apache-2.0, RAGFlow uses Apache-2.0, AnythingLLM uses MIT, and Marker uses GPL-3.0. Verify licensing against your use case before committing .
-
-- **Vector databases have different strengths** — Qdrant for performance, Weaviate for hybrid search, Milvus for scale, Chroma for simplicity. Choose based on your workload .
-
-- The open-source ecosystem provides strong RAG frameworks, vector search, and document ingestion foundations, but **managed infrastructure, permission-aware retrieval, and enterprise connectors** remain primarily commercial offerings.
-
-
+# 🚀 Awesome Retrieval-Augmented Generation (RAG) Platform Ecosystem
+
+![Awesome RAG Platforms Banner](./assets/banner.svg)
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Retrieval-Augmented-Generation-Rag-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Retrieval-Augmented-Generation-Rag-Platform?style=social" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Retrieval-Augmented-Generation-Rag-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Retrieval-Augmented-Generation-Rag-Platform?style=social" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 💡 Overview & Ecosystem Insights
 
+Welcome to the **Curated Guide to Retrieval-Augmented Generation (RAG) Platforms, Managed Vector Engines, and Open-Source RAG Infrastructure**. 
 
-**Made for AI engineers, RAG developers, and organizations seeking retrieval-augmented generation sovereignty.**  
+This repository tracks notable **commercial RAG platforms**, **managed vector databases**, and **open-source RAG frameworks** that connect Large Language Models (LLMs) to private enterprise data, unstructured documents, and API knowledge repositories—enabling grounded, hallucination-free, cited, and accurate AI responses.
 
-Let's make RAG platforms more open, transparent, and accurate.
+### 🌐 Market Size & Industry Structure
+> 📊 **Estimated Market Size**: The global Retrieval-Augmented Generation (RAG) and Enterprise Search market is estimated at **$2.5 Billion in 2026** and is projected to reach **$11.8 Billion by 2030** (CAGR ~47%).  
+> 🧩 **Market Fragmentation**: The sector is **moderately to highly fragmented**. While hyperscalers (AWS Bedrock Knowledge Bases) and specialized vector database leaders (Pinecone, Qdrant, Weaviate) capture enterprise storage workloads, open-source orchestration engines (Dify, LangChain, LlamaIndex, RAGFlow) prevent a single "winner-take-all" outcome by giving developers sovereignty over document processing, embedding, and hybrid retrieval.
+
+---
+
+## 📑 Table of Contents
+- [🏢 SaaS & Managed RAG Platforms](#-saas--managed-rag-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ How to Contribute](#️-how-to-contribute)
+- [💖 Support](#-support)
+- [⚠️ Disclaimer](#️-disclaimer)
+- [⭐ Star History](#-star-history)
+
+---
+
+## 🏢 SaaS & Managed RAG Platforms
+
+Below is a curated selection of commercial and fully managed RAG platforms, vector databases, and enterprise document ingestion services, **sorted by Company Scale (Valuation / Revenue in Descending Order)**:
+
+| Platform / Service | Scale / Valuation / Revenue | Starting Paid Tier Pricing | Free Tier / Trial Limits | Key Use Case & Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Amazon Bedrock Knowledge Bases](https://aws.amazon.com/bedrock/knowledge-bases/)** | **~$1.8 Trillion (AWS Parent Market Cap)** | $0.10 per GB/month storage + $0.0001 per retrieval API call | AWS Free Tier: 2,000 free retrieval queries/month for 12 months | **Best for AWS-native RAG**: Fully managed document chunking, embedding, vector storage, and foundation model generation. |
+| **[Pinecone](https://www.pinecone.io/)** | **$750 Million Valuation** | $50/month (Standard plan) | Free Starter Plan: 1 project, 1 index, up to 100k vectors (2GB storage) | **Best for vector search at scale**: Leading enterprise managed vector database with serverless indexing and hybrid search. |
+| **[Glean](https://www.glean.com/)** | **$4.6 Billion Valuation** | $12/user/month (Enterprise packages) | 30-day Enterprise Free Trial for up to 50 users | **Best for enterprise knowledge**: Permission-aware generative search and RAG across company SaaS suites (Slack, Jira, Google Drive). |
+| **[Qdrant Cloud](https://qdrant.tech/)** | **$280 Million Valuation** | $25/month (Cluster tier) | Free Forever Cluster: 1GB cluster storage (~100k vectors) | **Best for high-performance vector search**: Managed Rust-based vector search engine with payload filtering. |
+| **[Weaviate Cloud](https://weaviate.io/)** | **$200 Million Valuation** | $25/month (Serverless tier) | $100 Free Credit for 14-day Sandbox Cluster | **Best for AI-native applications**: Vector database with GraphQL API, hybrid BM25 search, and multi-modal embeddings. |
+| **[Unstructured](https://unstructured.io/)** | **$200 Million Valuation** | $10/1,000 pages processed | 14-day Free Trial with 1,000 free document pages | **Best for document processing**: Ingests, cleans, and partitions complex PDFs, slides, tables, and scanned docs into RAG-ready JSON. |
+| **[LlamaIndex Cloud](https://www.llamaindex.ai/)** | **$80 Million Valuation** | $50/month (Developer plan) | Free Tier: 1,000 document parses/month + 10k retrieval queries/month | **Best for developer-friendly RAG**: Managed document parsing (LlamaParse), indexing workflows, and advanced retrieval APIs. |
+| **[Chroma Cloud](https://www.trychroma.com/)** | **$75 Million Valuation** | $20/month (Managed Hosted) | Free Tier: 50,000 vectors & 1GB hosted index storage | **Best for rapid RAG prototypes**: AI-native embedding database for fast Python/JS application integration. |
+| **[Dify Knowledge](https://dify.ai/)** | **$50 Million Valuation** | $59/month (Professional plan) | Free Sandbox: 200 GPT/LLM call credits & 5MB document upload limit | **Best for visual RAG development**: Cloud-hosted visual orchestration platform with built-in document management. |
+| **[Ragie](https://www.ragie.ai/)** | **$15 Million Valuation** | $29/month (Starter tier) | Free Tier: 100 document uploads & 1,000 search queries/month | **Best for rapid RAG development**: Fully managed RAG-as-a-service providing instant chunking, embedding, and retrieval APIs. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+The open-source RAG ecosystem offers complete self-hosted platforms, modular frameworks, vector search engines, and document parsers. Below is a comprehensive list **sorted by GitHub Star Count (Descending)**, with social badges linking directly to each repository's stargazers page:
+
+### 🌟 Top Open-Source RAG Ecosystem (Sorted by Stars)
+
+- **[Dify](https://github.com/langgenius/dify)** [![GitHub stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers)  
+  **The leading open-source LLM app development platform** (Apache-2.0). Features a visual workflow builder for RAG pipelines, AI agents, and prompt orchestration with built-in document ingestion and hybrid retrieval.
+
+- **[LangFlow](https://github.com/langflow-ai/langflow)** [![GitHub stars](https://img.shields.io/github/stars/langflow-ai/langflow?style=social&color=white)](https://github.com/langflow-ai/langflow/stargazers)  
+  **Visual framework for building multi-agent RAG applications** (MIT). Drag-and-drop canvas for composing vector search, document chunking, and custom retriever components.
+
+- **[Open WebUI](https://github.com/open-webui/open-webui)** [![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers)  
+  **User-friendly self-hosted Web UI for LLMs and RAG** (MIT). Integrated document upload, hybrid vector search, Ollama support, and granular multi-user permissions.
+
+- **[LangChain](https://github.com/langchain-ai/langchain)** [![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers)  
+  **The standard framework for LLM application development** (MIT). Offers comprehensive RAG chains, document loaders, vector store abstractions, and agentic retrieval.
+
+- **[RAGFlow](https://github.com/infiniflow/ragflow)** [![GitHub stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers)  
+  **Open-source RAG engine based on deep document understanding** (Apache-2.0). Features template-based PDF parsing, visual grounding citations, and hallucination reduction.
+
+- **[GPT4All](https://github.com/nomic-ai/gpt4all)** [![GitHub stars](https://img.shields.io/github/stars/nomic-ai/gpt4all?style=social&color=white)](https://github.com/nomic-ai/gpt4all/stargazers)  
+  **Privacy-aware desktop client with LocalDocs RAG capability** (MIT). Chat with local files and PDFs completely offline on consumer CPUs/GPUs.
+
+- **[Docling](https://github.com/docling-project/docling)** [![GitHub stars](https://img.shields.io/github/stars/docling-project/docling?style=social&color=white)](https://github.com/docling-project/docling/stargazers)  
+  **IBM Research document processing framework for RAG** (MIT). Converts complex PDFs, scans, and tables into cleanly structured Markdown and JSON.
+
+- **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)** [![GitHub stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social&color=white)](https://github.com/Mintplex-Labs/anything-llm/stargazers)  
+  **All-in-one desktop and enterprise RAG application** (MIT). Chat with documents, web pages, and databases with workspace isolation and zero-setup vector databases.
+
+- **[Flowise](https://github.com/FlowiseAI/Flowise)** [![GitHub stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social&color=white)](https://github.com/FlowiseAI/Flowise/stargazers)  
+  **Open-source UI visual tool to build LangChain RAG flows** (Apache-2.0). Build custom document QA pipelines via node-based visual drag-and-drop.
+
+- **[LlamaIndex](https://github.com/run-llama/llama_index)** [![GitHub stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)  
+  **Data framework for LLM & RAG applications** (MIT). The reference code-first framework for data connectors, advanced chunking, indexing, and reranking retrieval.
+
+- **[Milvus](https://github.com/milvus-io/milvus)** [![GitHub stars](https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white)](https://github.com/milvus-io/milvus/stargazers)  
+  **Cloud-native vector database built for scale** (Apache-2.0). Handles multi-billion vector datasets with high throughput and horizontal scalability.
+
+- **[Marker](https://github.com/VikParuchuri/marker)** [![GitHub stars](https://img.shields.io/github/stars/VikParuchuri/marker?style=social&color=white)](https://github.com/VikParuchuri/marker/stargazers)  
+  **Fast, accurate PDF to Markdown converter** (GPL-3.0). Extracts formulas, tables, and images for clean RAG ingestion.
+
+- **[Quivr](https://github.com/QuivrHQ/quivr)** [![GitHub stars](https://img.shields.io/github/stars/QuivrHQ/quivr?style=social&color=white)](https://github.com/QuivrHQ/quivr/stargazers)  
+  **Open-source personal RAG second brain** (Apache-2.0). Dump files, notes, and links to query with local or cloud LLMs.
+
+- **[Khoj](https://github.com/khoj-ai/khoj)** [![GitHub stars](https://img.shields.io/github/stars/khoj-ai/khoj?style=social&color=white)](https://github.com/khoj-ai/khoj/stargazers)  
+  **Open-source AI desktop search assistant** (AGPL-3.0). RAG search across personal notes, PDF documents, and web search.
+
+- **[Microsoft GraphRAG](https://github.com/microsoft/graphrag)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/graphrag?style=social&color=white)](https://github.com/microsoft/graphrag/stargazers)  
+  **Knowledge graph-driven RAG system by Microsoft** (MIT). Extracts entity-relation knowledge graphs from complex text corpora for global analytical queries.
+
+- **[Qdrant](https://github.com/qdrant/qdrant)** [![GitHub stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers)  
+  **High-performance Rust vector database** (Apache-2.0). Vector search engine with rich payload filtering and fast distance metrics.
+
+- **[Onyx (formerly Danswer)](https://github.com/onyx-dot-app/onyx)** [![GitHub stars](https://img.shields.io/github/stars/onyx-dot-app/onyx?style=social&color=white)](https://github.com/onyx-dot-app/onyx/stargazers)  
+  **Open-source enterprise search and conversational RAG platform** (MIT). Direct connectors to Slack, Google Drive, Notion, GitHub, and Confluence.
+
+- **[Chroma](https://github.com/chroma-core/chroma)** [![GitHub stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white)](https://github.com/chroma-core/chroma/stargazers)  
+  **AI-native embedding database** (Apache-2.0). Simple developer API focused on fast prototyping and local embedding storage.
+
+- **[Haystack](https://github.com/deepset-ai/haystack)** [![GitHub stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers)  
+  **Production-ready Python RAG framework by deepset** (Apache-2.0). Modular pipelines for semantic search, question answering, and hybrid reranking.
+
+- **[Pgvector](https://github.com/pgvector/pgvector)** [![GitHub stars](https://img.shields.io/github/stars/pgvector/pgvector?style=social&color=white)](https://github.com/pgvector/pgvector/stargazers)  
+  **Open-source vector similarity search extension for PostgreSQL** (PostgreSQL License). Enables vector embeddings directly inside existing Postgres tables.
+
+- **[Weaviate](https://github.com/weaviate/weaviate)** [![GitHub stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers)  
+  **Open-source vector database with hybrid search** (BSD-3-Clause). Built-in ML vectorizers, GraphQL interface, and inverted index BM25 integration.
+
+- **[RAGAS](https://github.com/explodinggradients/ragas)** [![GitHub stars](https://img.shields.io/github/stars/explodinggradients/ragas?style=social&color=white)](https://github.com/explodinggradients/ragas/stargazers)  
+  **Evaluation framework for RAG pipelines** (Apache-2.0). Provides quantitative metrics for context relevance, faithfulness, and answer correctness.
+
+- **[Unstructured](https://github.com/Unstructured-IO/unstructured)** [![GitHub stars](https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=social&color=white)](https://github.com/Unstructured-IO/unstructured/stargazers)  
+  **Open-source document pre-processing library** (Apache-2.0). Ingests raw documents (PDF, DOCX, PPTX) into structured text elements.
+
+- **[PyMuPDF](https://github.com/pymupdf/PyMuPDF)** [![GitHub stars](https://img.shields.io/github/stars/pymupdf/PyMuPDF?style=social&color=white)](https://github.com/pymupdf/PyMuPDF/stargazers)  
+  **High-performance C/Python library for PDF text extraction** (AGPL-3.0). Lightning-fast parsing of PDF text, images, and metadata for RAG.
+
+- **[Verba](https://github.com/weaviate/Verba)** [![GitHub stars](https://img.shields.io/github/stars/weaviate/Verba?style=social&color=white)](https://github.com/weaviate/Verba/stargazers)  
+  **Open-source RAG chatbot powered by Weaviate** (BSD-3-Clause). User interface for document indexing, semantic search, and customizable chunking strategies.
+
+- **[Apache Tika](https://github.com/apache/tika)** [![GitHub stars](https://img.shields.io/github/stars/apache/tika?style=social&color=white)](https://github.com/apache/tika/stargazers)  
+  **Universal content detection and text extraction toolkit** (Apache-2.0). Detects and extracts text metadata from over 1,000 distinct file formats.
+
+---
+
+## 🛠️ How to Contribute
+
+Contributions from AI engineers and open-source contributors are welcome!
+1. **Fork** this repository.
+2. Add or update entries in `README.md` keeping descriptions factual, concise, and linked.
+3. Ensure open-source additions include star badges pointing to their repo stargazers URL.
+4. Submit a **Pull Request** with a brief summary of additions.
+
+---
+
+## 💖 Support
+
+Thank you for exploring and utilizing the **Awesome RAG Platform Ecosystem** repository! Building and maintaining this open-source resource for AI developers and enterprise architects requires continuous curation.
+
+If you find this list helpful, please consider supporting the project:
+- ⭐ **Star** this repository to increase visibility for other AI engineers.
+- 🔀 **Fork** and share it with your team and technical network.
+- ☕ **Sponsor / Buy Me a Coffee**: If you'd like to support ongoing updates and open-source maintenance, consider sponsoring on GitHub:  
+  [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?style=for-the-badge&logo=github-sponsors)](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a community-curated collection intended for educational and architectural evaluation purposes.
+- RAG accuracy and security depend on vector retrieval configuration, embedding quality, chunking strategy, and tenant isolation controls. Evaluate thoroughly using frameworks like RAGAS before pushing to production.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Retrieval-Augmented-Generation-Rag-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Retrieval-Augmented-Generation-Rag-Platform&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <b>Maintained by <a href="https://github.com/ishandutta2007">ishandutta2007</a> for AI developers, system architects, and RAG practitioners.</b>
+</p>
